@@ -1,0 +1,14 @@
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.AssemblyInfoInputs.cache
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.AssemblyInfo.cs
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.csproj.CoreCompileInputs.cache
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\bin\Debug\net8.0\Atividade.ead.04.12.exe
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\bin\Debug\net8.0\Atividade.ead.04.12.deps.json
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\bin\Debug\net8.0\Atividade.ead.04.12.runtimeconfig.json
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\bin\Debug\net8.0\Atividade.ead.04.12.dll
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\bin\Debug\net8.0\Atividade.ead.04.12.pdb
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.dll
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\refint\Atividade.ead.04.12.dll
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.pdb
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\Atividade.ead.04.12.genruntimeconfig.cache
+C:\Users\rvsantos\Downloads\aulas\Atividade.ead.04.12\obj\Debug\net8.0\ref\Atividade.ead.04.12.dll
