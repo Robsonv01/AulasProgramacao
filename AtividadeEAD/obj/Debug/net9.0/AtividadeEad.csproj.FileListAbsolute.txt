@@ -1,0 +1,14 @@
+C:\Users\Robson\Documents\aulas\AtividadeEad\bin\Debug\net9.0\AtividadeEad.exe
+C:\Users\Robson\Documents\aulas\AtividadeEad\bin\Debug\net9.0\AtividadeEad.deps.json
+C:\Users\Robson\Documents\aulas\AtividadeEad\bin\Debug\net9.0\AtividadeEad.runtimeconfig.json
+C:\Users\Robson\Documents\aulas\AtividadeEad\bin\Debug\net9.0\AtividadeEad.dll
+C:\Users\Robson\Documents\aulas\AtividadeEad\bin\Debug\net9.0\AtividadeEad.pdb
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.AssemblyInfoInputs.cache
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.AssemblyInfo.cs
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.csproj.CoreCompileInputs.cache
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.dll
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\refint\AtividadeEad.dll
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.pdb
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\AtividadeEad.genruntimeconfig.cache
+C:\Users\Robson\Documents\aulas\AtividadeEad\obj\Debug\net9.0\ref\AtividadeEad.dll
