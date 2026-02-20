@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+header {
+  width: 90vw;
+  height: 10vh;
+  background-color: rgb(252, 237, 237);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 10px;
+}
+nav {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  height: 50%;
+  background-color: rgb(0, 0, 0);
+}
+main {
+  width: 90vw;
+  height: 50vh;
+  background-color: rgb(9, 45, 252);
+  padding: 20px;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+section {
+  width: 70%;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: flex-end;
+}
+
+aside {
+  width: 30%;
+  height: 80%;
+  background-color: brown;
+}
+#dentrodasection {
+  width: 100%;
+  height: 70%;
+  background-color: rebeccapurple;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+#article1 {
+  width: 100%;
+  height: 30%;
+  background-color: rgb(226, 226, 226);
+}
+#article2 {
+  width: 100%;
+  height: 50%;
+  background-color: rgb(18, 252, 162);
+}
+footer {
+  width: 90vw;
+  height: 10vh;
+  background-color: rgb(200, 255, 0);
+}
