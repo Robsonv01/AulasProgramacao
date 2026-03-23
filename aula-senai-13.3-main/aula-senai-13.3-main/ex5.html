@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="txt">texto</h1>
+    <button id="vm">Vermelho</button>
+    <button id="az">Azul</button>
+    <script>
+      document.getElementById("vm").addEventListener("click", () => {
+        document.getElementById("txt").style.color = "red";
+      });
+      document.getElementById("az").addEventListener("click", () => {
+        document.getElementById("txt").style.color = "blue";
+      });
+    </script>
+  </body>
+</html>
