@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="txt">Texto original</h1>
+    <button id="mudar">Alterar texto</button>
+    <script>
+      document.getElementById("mudar").addEventListener("click", () => {
+        let txt = document.getElementById("txt");
+        if (txt.textContent == "Texto original") {
+          txt.textContent = "Texto alterado com js";
+        } else {
+          txt.textContent = "Texto original";
+        }
+      });
+    </script>
+  </body>
+</html>

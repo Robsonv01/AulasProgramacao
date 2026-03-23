@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="n1" placeholder="Coloque o numero 1: " />
+    <input type="number" id="n2" placeholder="Coloque o numero 2: " />
+    <button id="somar">Somar</button>
+    <div id="resultado"></div>
+    <script>
+      document.getElementById("somar").addEventListener("click", () => {
+        let n1 = Number(document.getElementById("n1").value);
+        let n2 = Number(document.getElementById("n2").value);
+        document.getElementById("resultado").innerHTML = `<h1>Resultado: ${
+          n1 + n2
+        }</h1>`;
+      });
+    </script>
+  </body>
+</html>
