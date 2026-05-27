@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercícios DOM JavaScript</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+}
+section{
+    border:1px solid #ccc;
+    padding:15px;
+    margin-bottom:20px;
+}
+button{
+    margin:5px;
+    padding:8px;
+}
+img{
+    width:200px;
+}
+</style>
+</head>
+<body>
+
+<h1 id="titulo">Título Original</h1>
+
+<section>
+<h2>1 - Alterar título</h2>
+<script>
+document.getElementById("titulo").innerText = "Bem-vindo ao DOM";
+</script>
+</section>
+
+<section>
+<h2>2 - Mudar fundo para azul</h2>
+<button onclick="document.body.style.backgroundColor='blue'">Azul</button>
+</section>
+
+<section>
+<h2>3 - Aumentar fonte do parágrafo</h2>
+<p id="paragrafo1">Texto do parágrafo</p>
+<script>
+document.getElementById("paragrafo1").style.fontSize = "30px";
+</script>
+</section>
+
+<section>
+<h2>4 - Esconder segundo parágrafo</h2>
+<p>Primeiro parágrafo</p>
+<p id="segundo">Segundo parágrafo</p>
+<script>
+document.getElementById("segundo").style.display = "none";
+</script>
+</section>
+
+<section>
+<h2>5 - Alerta</h2>
+<button onclick="alert('Botão pressionado!')">Clique</button>
+</section>
+
+<section>
+<h2>6 - Mostrar texto digitado</h2>
+<input type="text" id="texto">
+<button onclick="mostrarTexto()">Mostrar</button>
+<p id="resultado"></p>
+
+<script>
+function mostrarTexto(){
+    let valor = document.getElementById("texto").value;
+    document.getElementById("resultado").innerText = valor;
+}
+</script>
+</section>
+
+<section>
+<h2>7 - Adicionar item na lista</h2>
+<ul id="lista"></ul>
+<button onclick="adicionarItem()">Adicionar Item</button>
+
+<script>
+function adicionarItem(){
+    let li = document.createElement("li");
+    li.innerText = "Novo Item";
+    document.getElementById("lista").appendChild(li);
+}
+</script>
+</section>
+
+<section>
+<h2>8 - Trocar cor do fundo</h2>
+<button onclick="document.body.style.backgroundColor='red'">Vermelho</button>
+<button onclick="document.body.style.backgroundColor='green'">Verde</button>
+<button onclick="document.body.style.backgroundColor='yellow'">Amarelo</button>
+</section>
+
+<section>
+<h2>9 - Contador</h2>
+<p id="contador">0</p>
+<button onclick="aumentar()">+1</button>
+
+<script>
+let numero = 0;
+
+function aumentar(){
+    numero++;
+    document.getElementById("contador").innerText = numero;
+}
+</script>
+</section>
+
+<section>
+<h2>10 - Mostrar ou esconder imagem</h2>
+<button onclick="toggleImagem()">Mostrar/Esconder</button>
+<br><br>
+<img id="imagem" src="https://via.placeholder.com/200">
+
+<script>
+function toggleImagem(){
+    let img = document.getElementById("imagem");
+
+    if(img.style.display === "none"){
+        img.style.display = "block";
+    }else{
+        img.style.display = "none";
+    }
+}
+</script>
+</section>
+
+<section>
+<h2>11 - Formulário</h2>
+
+<input type="text" id="nome" placeholder="Nome">
+<input type="number" id="idade" placeholder="Idade">
+<button onclick="enviar()">Enviar</button>
+
+<div id="dados"></div>
+
+<script>
+function enviar(){
+    let nome = document.getElementById("nome").value;
+    let idade = document.getElementById("idade").value;
+
+    document.getElementById("dados").innerHTML =
+    "Nome: " + nome + "<br>Idade: " + idade;
+}
+</script>
+</section>
+
+<section>
+<h2>12 - Mudar cor dos parágrafos</h2>
+
+<p class="verde">Parágrafo 1</p>
+<p class="verde">Parágrafo 2</p>
+<p class="verde">Parágrafo 3</p>
+
+<script>
+let paragrafos = document.querySelectorAll(".verde");
+
+for(let i = 0; i < paragrafos.length; i++){
+    paragrafos[i].style.color = "green";
+}
+</script>
+</section>
+
+<section>
+<h2>13 - Relógio digital</h2>
+
+<h3 id="relogio"></h3>
+
+<script>
+function atualizarRelogio(){
+    let agora = new Date();
+    document.getElementById("relogio").innerText =
+    agora.toLocaleTimeString();
+}
+
+setInterval(atualizarRelogio,1000);
+</script>
+</section>
+
+<section>
+<h2>14 - Contador de caracteres</h2>
+
+<input type="text" id="campo" onkeyup="contar()">
+<p id="caracteres">0 caracteres</p>
+
+<script>
+function contar(){
+    let total = document.getElementById("campo").value.length;
+
+    document.getElementById("caracteres").innerText =
+    total + " caracteres";
+}
+</script>
+</section>
+
+<section>
+<h2>15 - Lista de tarefas</h2>
+
+<input type="text" id="tarefa">
+<button onclick="adicionarTarefa()">Adicionar</button>
+
+<ul id="tarefas"></ul>
+
+<script>
+function adicionarTarefa(){
+    let texto = document.getElementById("tarefa").value;
+
+    let li = document.createElement("li");
+    li.innerText = texto;
+
+    document.getElementById("tarefas").appendChild(li);
+
+    document.getElementById("tarefa").value = "";
+}
+</script>
+</section>
+
+</body>
+</html>
