@@ -1,0 +1,4 @@
+C:\Users\rvsantos\Downloads\aulas\Aula12.05\obj\Debug\net8.0\Aula12.05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rvsantos\Downloads\aulas\Aula12.05\obj\Debug\net8.0\Aula12.05.AssemblyInfoInputs.cache
+C:\Users\rvsantos\Downloads\aulas\Aula12.05\obj\Debug\net8.0\Aula12.05.AssemblyInfo.cs
+C:\Users\rvsantos\Downloads\aulas\Aula12.05\obj\Debug\net8.0\Aula12.05.csproj.CoreCompileInputs.cache
