@@ -1,0 +1,6 @@
+@Atividade08._06_HostAddress = http://localhost:5067
+
+GET {{Atividade08._06_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
